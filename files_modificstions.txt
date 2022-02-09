@@ -1,0 +1,47 @@
+bot.js
+po 10 linijce
+const { keep_alive } = require("./server");
+
+//---------------------------------------------------
+
+package.json
+
+{
+    "name": "R2-D2-BOT (DBM)",
+    "author": "Mateusz Piwowarski",
+    "main": "bot.js",
+    "version": "2.1.1",
+    "scripts": {
+      "lint": "eslint --cache actions events extensions",
+      "lint:fix": "eslint --fix --cache actions events extensions",
+      "prettier:check": "prettier --check **/*.{js,json,yml}",
+      "prettier:fix": "prettier --write **/*.{js,json,yml}"
+    },
+    "engines": {
+      "node": ">=17.4.0",
+      "npm": ">=8.3.0"
+    },
+    "dependencies": {
+      "@discordjs/voice": "latest",
+      "dargs": "latest",
+      "discord": "latest",
+      "discord.js": "^13.6.0",
+      "express": "latest",
+      "eslint": "^8.0.1",
+      "eslint-config-aqua": "^9.0.2",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-prettier": "^4.0.0",
+      "fstorm": "latest",
+      "jimp": "latest",
+      "libsodium-wrappers": "latest",
+      "node-cron": "^3.0.0",
+      "node-fetch": "latest",
+      "opusscript": "latest",
+      "prettier": "^2.4.1",
+      "tweetnacl": "latest",
+      "valid-url": "latest",
+      "ytdl-core": "^4.10.0"
+    },
+    "is-music-bot": false
+  }
+  
